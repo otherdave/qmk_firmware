@@ -9,3 +9,12 @@
 #define I2C_DRIVER I2CD1
 #define I2C1_SDA_PIN GP22
 #define I2C1_SCL_PIN GP23
+
+// This requires a setting in rules.mk as well
+#define DOUBLE_TAP_SHIFT_TURNS_ON_CAPS_WORD
+
+// Reset when the device re-inits
+#define OS_DETECTION_KEYBOARD_RESET
+//#define OS_DETECTION_SINGLE_REPORT
+
+#define SPLIT_WPM_ENABLE
