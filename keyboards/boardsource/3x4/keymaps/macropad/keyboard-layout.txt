@@ -1,0 +1,13 @@
+https://www.keyboard-layout-editor.com/#/
+
+Teams:
+
+[{a:7},"Mute","Video","","Raise Hand"],
+[{a:7},"Chat","","",""],
+[{a:7},"Share","","","Quick Mute"]
+
+Anki:
+
+[{a:7},"1","2","3","4"],
+[{a:7},"D","D","S","S"],
+[{a:7},"Space","Space","Space","Space"]

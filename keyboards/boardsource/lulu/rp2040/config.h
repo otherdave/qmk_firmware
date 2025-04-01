@@ -13,8 +13,16 @@
 // This requires a setting in rules.mk as well
 #define DOUBLE_TAP_SHIFT_TURNS_ON_CAPS_WORD
 
+#define COMBO_MUST_PRESS_IN_ORDER
+#define COMBO_TERM 30
+
 // Reset when the device re-inits
 #define OS_DETECTION_KEYBOARD_RESET
-//#define OS_DETECTION_SINGLE_REPORT
+#define OS_DETECTION_SINGLE_REPORT
 
-#define SPLIT_WPM_ENABLE
+#define SPLIT_MODS_ENABLE
+
+// For cosmetic keypresses and stuff on the right
+#define SPLIT_TRANSPORT_MIRROR
+
+//#define OLED_FONT_H  "lib/glcdfont.c"
