@@ -24,5 +24,3 @@
 
 // For cosmetic keypresses and stuff on the right
 #define SPLIT_TRANSPORT_MIRROR
-
-//#define OLED_FONT_H  "lib/glcdfont.c"

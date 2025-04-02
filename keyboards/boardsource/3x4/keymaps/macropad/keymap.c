@@ -4,7 +4,6 @@
 
 // Hitting the keys at the top-right / bottom-left
 // corners will put it into boot mode.
-//const uint16_t PROGMEM flash_combo[] = {KC_RSFT, KC_RCTL, KC_K, KC_E, COMBO_END};
 const uint16_t PROGMEM flash_combo[] = {RCS(KC_K), RCS(KC_E), COMBO_END};
 const uint16_t PROGMEM teams_to_anki_combo[] = {RCS(KC_M), RCS(KC_E), COMBO_END};
 const uint16_t PROGMEM anki_to_teams_combo[] = {KC_1, KC_SPC, COMBO_END};
